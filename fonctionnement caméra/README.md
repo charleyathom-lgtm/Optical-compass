@@ -53,14 +53,16 @@ When all is connected, you can run the main_loop.py script. It will automaticall
 > If you run the script on a code editor (like Visual Studio Code), make sure all the files are "trust" by the editor, you may encounter some troubles with path. To avoid these issues, run the script on a terminal.
 
 ### Image Processing
-To process the images, you need to import 4 images in the Image_Processing folder and run the Image_processing.py script. It will display the Degree of Polarization (DoP) and the Global and Local Angle of Polarization (AoP).
-
+To process images, refer to the file "traitement de données" all pictures will be stored in a "DATA" file where they must be sorted and converted to matrixes. The mathlab codes will save the processed matrexes in a file of your choosing. 
 ## Help
 Any advise for common problems or issues, see the documentation with the code or contact me.
 
 ## Author
 Alexandre Dupont\
 email: minidupsalex@gmail.com
+
+Charley Thom\
+email: charley.athom@gmail.com
 
 ## Version History
 * 0.1
@@ -70,6 +72,7 @@ email: minidupsalex@gmail.com
 This works contains code taken from:
 * https://github.com/roesel/elliptec
 * https://www.jai.com/support-software/jai-software/
+* https://github.com/Alexandredpt1/Optical_Compass
 
 
 
