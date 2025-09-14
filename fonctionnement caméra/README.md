@@ -21,8 +21,15 @@ The code was designed for image acquisition using GigE Vision or USB3 Vision dev
 * Talker_listener.py \
 This Python script provides functions for socket communication between two scripts using blocking and non-blocking listeners and talkers. It uses Python's built-in socket module to handle TCP/IP communication on a local machine (127.0.0.1).
 
-* Image_Processing.py \
+* picture2matrix \
 This Python script processes a series of polarization images taken at different angles to compute and visualize various polarization parameters such as Degree of Polarization (DoP) and Angle of Polarization (AoP). The script uses libraries like imageio, numpy, and matplotlib for image reading, data processing, and visualization.
+It will generate a folder of matrixes each corresponding to one aquisiton (4 pictures)
+
+* picture_sort.py\
+This script will sort all the pictures stored in DATA into folder containing 4 pictures.
+
+* batch_processing_hough.mat and batch_processing_eig.mat\
+Each require the matrixes created by picture2matrix.py and return a folder containing the processed pictures relative to each aquisition and containg the azimuth and elevation in the title.
 
 * Data folder \
 The folder that will contain all the images taken. It will be created after the fisrt launch of the main_loop.py script.
